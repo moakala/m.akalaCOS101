@@ -1,11 +1,13 @@
 fn main() {
-	Let p:f64 = 520000000.0
-	Let r:f64 = 10.0
-	Let t:f64 = 5.0
+	let p:f64 = 520000000.0;
+	let r:f64 = 10.0;
+	let t:f64 = 5.0;
 
-	/// simple interest
-	let a = p * (1.0 + (r/100.0)) ^ t)
+	// simple interest
+	let b = 1.0 + (r/100.0);
+	let c = b.powf(t);
+	let a = c*p;
 	println!("Amount is {}",a);
-	Let ci = a - p;
-	println!("Compound interest is {}", ci)
+	let ci = a - p;
+	println!("Compound interest is {}", ci);
 }
