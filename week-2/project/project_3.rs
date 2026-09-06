@@ -1,10 +1,10 @@
 fn main() {
-	let p:f64 = 520000000.0;
-	let r:f64 = 10.0;
-	let t:f64 = 5.0;
+	let p:f64 = 210000.0;
+	let r:f64 = 5.0;
+	let t:f64 = 3.0;
 
-	// simple interest project 1
-	let b = 1.0 + (r/100.0);
+	// depreciation project 3
+	let b = 1.0 - (r/100.0);
 	let c = b.powf(t);
 	let a = c*p;
 	println!("Amount is {}",a);
