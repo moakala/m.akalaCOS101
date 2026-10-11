@@ -9,5 +9,5 @@ members = [
     "practice_7",
     "practice_8",
     "practice_9"
-]
+, "project/project_1"]
 resolver = "2"
