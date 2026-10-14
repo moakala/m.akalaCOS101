@@ -1,0 +1,5 @@
+C:\Users\HP\Documents\comp sci\m.akalaCOS101\week-8\practice\target\debug\deps\practice_7.d: practice-7\src\main.rs
+
+C:\Users\HP\Documents\comp sci\m.akalaCOS101\week-8\practice\target\debug\deps\practice_7.exe: practice-7\src\main.rs
+
+practice-7\src\main.rs:
